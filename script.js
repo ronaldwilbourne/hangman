@@ -30,7 +30,7 @@ lettersArray.forEach(letter => {
 // Object Of Words + Categories
 const words = {
   programming: ["php", "javascript", "go", "css", "fortran", "html", "mysql", "python"],
-  movies: ["Prestige", "Inception", "Parasite", "Interstellar", "Whiplash", "Memento", "Coco", "Up"],
+  movies: ["Hateful eight", "Inception", "Parasite", "Interstellar", "Whiplash", "Memento", "Coco", "Up"],
   people: ["Albert Einstein", "Christiano Ronaldo", "Hades", "Tesla", "Messi"],
   countries: ["Kenya", "Nigeria", "India", "China", "Ukaraine", "Egypt"]
 }
@@ -141,10 +141,10 @@ document.addEventListener("click", (e) => {
       // Add Class Wrong On The Draw Element
       theDraw.classList.add(`wrong-${wrongAttempts}`);
 
-      // Play Fail Sound
+      // Fail 
       document.getElementById("fail");
 
-      if (wrongAttempts === 8) {
+      if (wrongAttempts === 6) {
 
         endGame();
 
@@ -154,7 +154,7 @@ document.addEventListener("click", (e) => {
 
     } else {
 
-      // Play Success Sound
+      //  Success 
       document.getElementById("success");
 
     }
