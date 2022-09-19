@@ -1,17 +1,25 @@
 # HANGMAN
+<<<<<<< HEAD
 
 ##a game of hang-man
 used technologies
 html,
 javascript,
 css,
+=======
+##a game of hang-man
+>>>>>>> 2868baaefff68c4e4c88beb361f8a0b43f9c9e4c
 
 
 
  i choose the hangman game because it has a challenging logical problems to be solved.
+<<<<<<< HEAD
 the simple game of guessing words of places,people, things.
 
 if you fail with a limited number of lives your player on the screen is hanged.
+=======
+the simple game of guessing words of places,people, things. if you fail with a limited number of lives your player on the screen is hanged.
+>>>>>>> 2868baaefff68c4e4c88beb361f8a0b43f9c9e4c
 
 
 
@@ -44,6 +52,10 @@ End the loop.
  If condition 3: Check whether lives = 0
  If true, print “You lose” & end loop
  End while loop
+<<<<<<< HEAD
   heres a link to the game ronnie96.github.io/hangman/
 
  
+=======
+ 
+>>>>>>> 2868baaefff68c4e4c88beb361f8a0b43f9c9e4c
